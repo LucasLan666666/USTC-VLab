@@ -6,7 +6,7 @@ module top_module (
     output wire       o2
 );
     assign outv = vec;
-    assign o0 = vec[2];
-    assign o1 = vec[1];
-    assign o2 = vec[0];
+    assign   o0 = vec[2];
+    assign   o1 = vec[1];
+    assign   o2 = vec[0];
 endmodule

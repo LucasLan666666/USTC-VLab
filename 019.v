@@ -4,9 +4,9 @@ module top_module (
     output wire out
 );
     mod_a inst_a (
-        .in1(   a),
-        .in2(   b),
-        .out( out)
+        .in1    (a  ),
+        .in2    (b  ),
+        .out    (out)
     );
 endmodule
 
