@@ -1,7 +1,7 @@
 module my_dff (
     input  wire clk,
     input  wire d,
-    output reg  q
+    output  reg q
 );
 	always@(posedge clk)
     	q <= d;

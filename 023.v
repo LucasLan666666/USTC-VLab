@@ -1,7 +1,7 @@
 module my_dff8 (
     input  wire       clk,
     input  wire [7:0] d,
-    output reg  [7:0] q
+    output  reg [7:0] q
 );
 	always@(posedge clk)
     	q <= d;
@@ -12,7 +12,7 @@ module top_module(
     input  wire       clk,
     input  wire [7:0] d,
     input  wire [1:0] sel,
-    output reg  [7:0] q
+    output  reg [7:0] q
 );
     wire [7:0] q1;
     wire [7:0] q2;

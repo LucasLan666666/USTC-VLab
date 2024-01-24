@@ -1,8 +1,8 @@
 module top_module(
-    input  [31:0] a,
-    input  [31:0] b,
-    input         sub,
-    output [31:0] sum
+    input  wire [31:0] a,
+    input  wire [31:0] b,
+    input  wire        sub,
+    output wire [31:0] sum
 );
     wire [ 1:0] cin;
     wire [ 1:0] cout;
@@ -29,11 +29,11 @@ endmodule
 
 
 module add16 (
-    input  [15:0] a,
-    input  [15:0] b,
-    input         cin,
-    output [15:0] sum,
-    output        cout
+    input  wire [15:0] a,
+    input  wire [15:0] b,
+    input  wire        cin,
+    output wire [15:0] sum,
+    output wire        cout
 );
 	assign {cout, sum} = a + b + cin;
 endmodule

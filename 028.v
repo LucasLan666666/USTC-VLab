@@ -2,7 +2,7 @@ module top_module (
     input  wire a,
     input  wire b,
     output wire out_assign,
-    output reg  out_alwaysblock
+    output  reg out_alwaysblock
 );
     assign out_assign = a & b;
 
