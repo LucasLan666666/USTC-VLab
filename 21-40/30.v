@@ -11,7 +11,8 @@ module top_module (
     always @(*) begin
         if (sel_b1 == 1'b1 && sel_b2 == 1'b1) begin
             out_always = b;
-        end else begin
+        end
+        else begin
             out_always = a;
         end
     end

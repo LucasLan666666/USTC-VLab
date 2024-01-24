@@ -7,7 +7,8 @@ module top_module (
     always @(posedge clk) begin
         if (reset) begin        // 同步置零
             q <= 8'b00000000;
-        end else begin
+        end
+        else begin
             q <= d;
         end
     end

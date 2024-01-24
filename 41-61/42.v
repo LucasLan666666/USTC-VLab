@@ -7,7 +7,8 @@ module top_module (
     always @(posedge clk or posedge areset) begin
         if (areset) begin        // 异步置零
             q <= 8'b00000000;
-        end else begin
+        end
+        else begin
             q <= d;
         end
     end

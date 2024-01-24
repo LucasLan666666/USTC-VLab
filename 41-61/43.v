@@ -8,7 +8,8 @@ module top_module (
     always @(posedge clk) begin
         if (~resetn) begin
             q <= 16'h00;
-        end else begin
+        end
+        else begin
             case (byteena[1:0])
                 2'b00: q <= q;
                 2'b01: q <= {q[15:8], d[7:0]};
