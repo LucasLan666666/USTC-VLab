@@ -1,4 +1,4 @@
-module ram_one_port(
+module ram_one_port (
     input  wire        clk,
     input  wire        wr_en,
     input  wire [ 2:0] wr_addr,

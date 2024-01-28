@@ -7,7 +7,7 @@ module top_module (
     output wire out_n
 );
     wire x, y;
-    
+
     assign     x = a && b;
     assign     y = c && d;
     assign   out = x || y;

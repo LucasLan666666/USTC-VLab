@@ -1,4 +1,4 @@
-module top_module(
+module top_module (
     input  wire [2:0] addr,
     output wire [3:0] q
 );

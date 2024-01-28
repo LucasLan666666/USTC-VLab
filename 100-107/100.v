@@ -1,4 +1,4 @@
-module top_module(
+module top_module (
     input  wire        clk,
     input  wire [ 4:0] A1,
     input  wire [ 4:0] A2,

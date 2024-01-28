@@ -3,7 +3,7 @@ module my_dff (
     input  wire d,
     output  reg q
 );
-	always@(posedge clk)
+	always @(posedge clk)
     	q <= d;
 endmodule
 

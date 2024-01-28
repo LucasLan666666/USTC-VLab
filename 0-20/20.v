@@ -1,4 +1,4 @@
-module mod_a(
+module mod_a (
 	input  wire in1,
 	input  wire in2,
 	input  wire in3,
@@ -11,9 +11,9 @@ module mod_a(
 endmodule
 
 
-module top_module( 
-    input  wire a, 
-    input  wire b, 
+module top_module (
+    input  wire a,
+    input  wire b,
     input  wire c,
     input  wire d,
     output wire out1,

@@ -1,14 +1,14 @@
 // 本质上是一个分频器
-module top_module(
+module top_module (
     input  wire       clk,
     input  wire       reset,
     output wire [7:0] ss
-); 
+);
     reg       clk_div;
     reg [1:0] cnt;
     reg [3:0] bit_l;
     reg [3:0] bit_h;
-    
+
     // 分频器，1s 一个周期，先低电平，后高电平
     always @(posedge clk) begin
         if (reset) begin

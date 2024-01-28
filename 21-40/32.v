@@ -1,5 +1,5 @@
-module top_module ( 
-    input  wire [2:0] sel, 
+module top_module (
+    input  wire [2:0] sel,
     input  wire [3:0] data0,
     input  wire [3:0] data1,
     input  wire [3:0] data2,

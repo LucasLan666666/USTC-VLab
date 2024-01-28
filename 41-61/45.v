@@ -2,7 +2,7 @@ module top_module (
     input  wire clk,
     input  wire x,
     output wire z
-); 
+);
     wire d_1, d_2, d_3;
     reg  q_1, q_2, q_3;
 

@@ -1,5 +1,6 @@
 `timescale 10ns / 10ns
-module tb ();
+module tb (
+);
     reg  a;
     reg  b;
     wire q;
@@ -19,9 +20,9 @@ module tb ();
 
 
     mymodule tb (
-        .a(a),  
-        .b(b),  
-        .q(q)  
+        .a(a),
+        .b(b),
+        .q(q)
     );
 
 endmodule

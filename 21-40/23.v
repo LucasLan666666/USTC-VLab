@@ -8,7 +8,7 @@ module my_dff8 (
 endmodule
 
 
-module top_module(
+module top_module (
     input  wire       clk,
     input  wire [7:0] d,
     input  wire [1:0] sel,

@@ -11,7 +11,7 @@ module mod_a (
 endmodule
 
 
-module top_module ( 
+module top_module (
 	input  wire a,
     input  wire b,
     input  wire c,

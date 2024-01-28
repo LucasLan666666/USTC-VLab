@@ -1,4 +1,4 @@
-module top_module(
+module top_module (
     input  wire        clk,
     input  wire        rst,
     input  wire        JUMP,

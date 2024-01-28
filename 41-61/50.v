@@ -6,7 +6,7 @@ module top_module(
 );
     always @(posedge clk) begin
         if (reset) begin
-            q = 4'b0101; 
+            q = 4'b0101;
         end
         else begin
             if (q == 4'b0101) begin

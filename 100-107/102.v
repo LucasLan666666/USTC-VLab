@@ -1,4 +1,4 @@
-module top_module(
+module top_module (
     input  wire [31:0] inst,
     output  reg [31:0] out
 );
@@ -18,5 +18,5 @@ module top_module(
             7'b0010011: out = {{21{inst[31]}}, inst[30:20]};
             default:    out = 32'h0;
         endcase
-    end 
+    end
 endmodule

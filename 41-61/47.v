@@ -1,5 +1,5 @@
 // 本质是个移位寄存器
-module top_module(
+module top_module (
     input  wire clk,
     input  wire in,
     output wire out

@@ -11,10 +11,10 @@ module top_module (
 endmodule
 
 
-module mod_a ( 
-    input  wire in1, 
-    input  wire in2, 
-    output wire	out 
+module mod_a (
+    input  wire in1,
+    input  wire in2,
+    output wire	out
 );
     assign out = in1 & in2;
 endmodule
